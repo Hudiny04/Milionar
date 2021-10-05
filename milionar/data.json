@@ -1,0 +1,51 @@
+{
+  "JsonQuestions": [
+    "Kolik má židle nohou?",
+    "Kolik je 2+2?",
+    "Kdo je Šaškare?",
+    "Kolik má Tran očí?",
+    "Kolik na světě žije opic?",
+    "Co teď?",
+    "Odkud je Tránskýho otec",
+    "Baví tě to?",
+    "Jsi opice?",
+    "Kde se berou děti",
+    "Tak teda hlavní město ČR",
+    "Kolik dlc má Europa Universalis 4",
+    "Co znamená zkratka GG",
+    "bug"
+  ],
+
+  "JsonBadAnswers": [
+    ["1", "2", "3"],
+    ["1", "5", "3"],
+    ["Opice", "Asi já", "Brambora"],
+    ["0", "4", "3"],
+    ["Jenom já", "1", "5000000"],
+    ["Nvm", "Končím", "Alt + f4"],
+    ["Není ze Země", "Afrika", "Himaláje"],
+    ["NN", "NN", "NN"],
+    ["JJ", "JJ", "JJ"],
+    ["Z Narnie", "Ze skříně", "Z Brna"],
+    ["Brno", "Ostrava", "Mladá Boleslav"],
+    ["12 000", "1", "Nekonečně mnoho"],
+    ["Já nevím", "Get Good", "Až na měsíc"],
+    ["bug", "bug", "bug"]
+  ],
+  "JsonRightAnswers": [
+    "4",
+    "4",
+    "Šimon",
+    "2",
+    "Jak to mám vědět",
+    "Hrajem dál",
+    "Vietnam",
+    "JJ",
+    "NN",
+    "Čáp je nosí",
+    "Praha",
+    "Raketu",
+    "Good Game",
+    "Ano Ano tak to bude"
+  ]
+}
