@@ -46,7 +46,7 @@ let Main = (JsonIndex) => {
         answers[RandomArr[3]].innerHTML = data.JsonRightAnswers[JsonIndex];
         answers[RandomArr[3]].onclick = rightAnswer;
 
-        callUnUsed ? help[0].onclick = () => { answers[RandomArr[3]].innerHTML = data.JsonRightAnswers[JsonIndex] + " - Přece toto je správná"; callUnUsed = false } : help[0].onclick = console.log("false");
+        callUnUsed ? help[0].onclick = () => {help[0].style.visibility = "hidden"; answers[RandomArr[3]].innerHTML = data.JsonRightAnswers[JsonIndex] + " - Přece toto je správná"; callUnUsed = false } : help[0].onclick = console.log("false");
 
         if (progressTier == 0) {
             question.innerHTML = "Vyhrál jsi, chceš hrát znova?"
@@ -66,6 +66,7 @@ let Main = (JsonIndex) => {
             answers[RandomArr[3]].style.visibility = "visible";
         }
         FiftyFiftyUnUsed = false;
+        help[1].style.visibility = "hidden";
     }
     FiftyFiftyUnUsed ? help[1].onclick = () => { fiftyF() } : help[1].onclick = console.log("false");
 
@@ -79,6 +80,7 @@ let Main = (JsonIndex) => {
         for (let i = 0; i < 4; i++) {
             answers[i].style.color = "#0c0032"
         }
+        help[2].style.visibility = "hidden";
     }
     audUnUsed ? help[2].onclick = () => { audF() } : help[2].onclick = console.log("false");
 
